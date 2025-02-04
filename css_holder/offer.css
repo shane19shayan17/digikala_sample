@@ -42,23 +42,7 @@
             align-items: center;
             padding: 10px;
 
-            .logo {
-                width: 120px;
-                height: inherit;
-                text-decoration: none;
-                background: none;
-                font-size: 12px;
-                color: white;
-                display: flex;
-                flex-flow: column nowrap;
-                align-items: center;
-                justify-content: space-around;
-
-                img {
-                    width: 84px;
-                    height: 84px !important;
-                }
-            }
+            
 
             img {
                 width: 132px;
@@ -120,4 +104,24 @@
             object-fit: cover;
         }
     }
+}
+.logo {
+    width: 120px;
+    height: inherit;
+    text-decoration: none;
+    background: none;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        width: 84px !important;
+        height: 84px !important;
+    }
+    /* span{
+        width: 100px;
+    } */
 }
