@@ -1,0 +1,127 @@
+.best {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+    .bestseller {
+        padding: 16px;
+        width: 86%;
+        height: inherit;
+        border: 1px solid #e0e0e2;
+        border-radius: 16px;
+
+        .swiper {
+            width: 100%;
+            height: 80%;
+            margin-top: 32px;
+        }
+
+        .swiper-slide {
+            width: 315px !important;
+            height: 300px;
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: start;
+            gap: 5px;
+            .vertical_line{
+                width: 70%;
+                height: 1px;
+                color: rgb(232, 229, 229);
+                opacity: 0.4;
+                margin: 5px auto;
+            }
+        }
+
+        .swiper-slide img {
+            display: block;
+            object-fit: cover;
+        }
+    }
+}
+
+.bestseller_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bestseller_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        width: 90%;
+        padding-right: 124px;
+
+        svg {
+            fill: rgb(249, 168, 37);
+        }
+
+        h3 {
+            font-size: 21px;
+        }
+    }
+}
+
+.bestseller_more {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    a {
+        text-decoration: none;
+        color: #19BFD3;
+        font-size: 14px;
+    }
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 6px;
+    img{
+        width: 84px;
+        height: 84px;
+    }
+    span{
+        color: #19bfd3;
+        font-size: 26px;
+        font-weight: 800;
+    }
+    p{
+        color:#3f4064 ;
+        font-size: 12px;
+    }
+}
+/* nav */
+.pre_nex_nav {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    color: #7A7E84;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    font-size: 10px;
+}

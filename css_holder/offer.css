@@ -1,0 +1,123 @@
+.offer {
+    width: 100%;
+    height: 300px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+    .offer_child {
+        width: 86%;
+        height: 100%;
+        background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+        border-radius: 12px;
+        padding: 10px 10px 10px 0px;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .border {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .swiper-slide {
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            height: 260px;
+            width: 160px;
+            background-color: #fff;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            padding: 10px;
+
+            .logo {
+                width: 120px;
+                height: inherit;
+                text-decoration: none;
+                background: none;
+                font-size: 12px;
+                color: white;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                justify-content: space-around;
+
+                img {
+                    width: 84px;
+                    height: 84px !important;
+                }
+            }
+
+            img {
+                width: 132px;
+                height: 132px;
+            }
+
+            h3 {
+                color: #62666d;
+                font-size: 12px;
+            }
+
+            .price {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+
+                .price_off {
+                    background-color: #d32f2f;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 20px;
+                    color: white;
+                    font-size: 12px;
+                    width: 34px;
+                    height: 20px;
+                    border-radius: 16px;
+                }
+
+                .current_price {
+                    width: 90px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    span{
+                        color: #3F4064;
+                    }
+                }
+            }
+        }
+
+        .prv_price {
+            color: #c0c2c5;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            width: 110px;
+            font-size: 14px;
+        }
+
+        .transparent {
+            background-color: transparent;
+        }
+
+        .swiper-slide img {
+            display: block;
+            object-fit: cover;
+        }
+    }
+}
