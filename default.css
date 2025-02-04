@@ -4,12 +4,17 @@
 @import url(./css_holder/example.css);
 @import url(./css_holder/offer.css);
 @import url(./css_holder/bestseller.css);
-*{
+@import url(./css_holder/bestseller.css);
+@import url(./css_holder/mobile/mobile.css) only screen and (min-width:420px);
+@import url(./css_holder/desktop/desktop.css) only screen and (min-width:1200px);
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: var(--iranyekan);
 }
+
 @font-face {
     font-family: "iranyekan";
     src: url(./essential/font/IRANYekanWeb-Bold.eot);
@@ -17,7 +22,7 @@
     src: url(./essential/font/IRANYekanWeb-Bold.woff);
     src: url(./essential/font/IRANYekanWeb-Bold.woff2);
 }
-:root{
-    --iranyekan:"iranyekan";
-}
 
+:root {
+    --iranyekan: "iranyekan";
+}
