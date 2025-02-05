@@ -1,0 +1,46 @@
+.supermarket {
+    width: 100%;
+    background-color: red;
+
+    .supermarket_center {
+        width: 86%;
+        margin: 0 auto;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+
+            .supermarket-title {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 20px;
+                background-color: blue;
+                .supermarket-title-img{
+                    padding-right: 30px;
+                }
+                .supermarket-title-offer{
+                    width: 22%;
+                    height: 28px;
+                    border-radius: 16px;
+                    background-color: #029a49;
+                    font-size: 14px;
+                    color: #ffffff;
+                    text-align: center;
+                    line-height: 28px;
+                }
+            }
+
+            .supermarket-product {
+                width: 50%;
+            }
+        }
+    }
+}

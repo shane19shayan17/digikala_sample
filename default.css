@@ -5,7 +5,7 @@
 @import url(./css_holder/offer.css);
 @import url(./css_holder/bestseller.css);
 @import url(./css_holder/bestseller.css);
-@import url(./css_holder/mobile/mobile.css) only screen and (min-width:420px);
+@import url(./css_holder/mobile/mobile.css) only screen and (min-width:384px);
 @import url(./css_holder/desktop/desktop.css) only screen and (min-width:1200px);
 
 * {
