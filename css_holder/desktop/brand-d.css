@@ -1,0 +1,67 @@
+.brand {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+    .brand-center {
+        width: 86%;
+        height: inherit;
+        padding: 24px 0px;
+        border: 1px solid #e0e0e2;
+        border-radius: 16px;
+
+        .brand-head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            svg {
+                fill: #FAC319;
+            }
+
+            h2 {
+                font-size: 21px;
+                color: #0c0c0c;
+            }
+        }
+
+        .brand-main {
+            margin-top: 24px;
+            width: 100%;
+
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            border-right: 1px solid #f0f0f1;
+            width: 10%;
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+        }
+    }
+}
